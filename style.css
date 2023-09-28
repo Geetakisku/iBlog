@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 23px;
+    font-family: var(--font1);
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 30px;
+    display: flex;
+}
+
+.nav-left img {
+width: 15vw;
+height: 15vh;
+margin-top: 1rem;
+
+
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+  
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.content {
+    height: 250px;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url(img/vecteezy_concept-design-news-update-web-landing-page-information-about_6663310.jpg);
+    position:absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.home-article>img {
+    height: 30vh;
+    width: 20vw
+}
+
+.home-articles {
+    background-color: #f8f0f0;
+    padding: 3px;
+    margin-top: 23px;
+    position: relative;
+}
+.year-box {
+    position: absolute;
+    left: 50rem;
+    top: 100px;
+    width: 150px;
+    height: 150px;
+ font-size: 18px;
+}
+
+.year-box div {
+    margin: 5px 0;
+}
+.home-article {
+    display: flex;
+    margin: 25px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding-left: 50px;
+    margin-top: 4px;
+    text-align: left;
+    
+}
+.home-article-content a {
+    text-align: none;
+    color: blue;
+
+}
+
+.footer {
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.footer a {
+    color: white;
+}
